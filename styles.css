@@ -1,0 +1,83 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f59b34;
+    background-image: url(th.jpg);
+    background-size: 100% 740px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Invitation Container */
+.invitation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+}
+
+/* Invitation Card Styling */
+.invitation-card {
+    background-color: #f3f2f2;
+    background-image: url(89.jpg);
+    background-size: 100% 400px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+.invitation-card h1 {
+    font-size: 30px;
+    color: #d9534f;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+}
+
+.couple-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+}
+
+.invitation-message {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.event-details p {
+    font-size: 16px;
+    color: #777;
+    margin: 5px 0;
+}
+
+.note {
+    font-size: 18px;
+    font-weight: bold;
+    color: #e05e02;
+    background-color: rgb(34, 13, 157);
+    margin-top: 20px;
+}
+.name{
+font-size: 10px;
+text-align: center;
+text-shadow: red;
+border-radius: 20px;
+background-color: yellow;
+padding: 0;
+border-radius: ;
+}
